@@ -1,0 +1,251 @@
+
+body {
+    background: url('video.png');
+    background-size: cover;
+  }
+  
+.blog-header-logo {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    font-size: 2.25rem;
+}
+
+.bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+/* начало блоки*/
+
+.card-container {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    min-width: 380px;
+    margin: 0 auto;
+    padding: 0 5px;
+
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.card {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+    background: url('img/videoplayback.mp4');
+}
+
+img {
+    margin: 0px -10px 15px;
+    background-size: cover;
+    width: calc(100% + 20px);
+    height: 195px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+.catalog-item > span {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+    display: inline-block;
+}
+
+
+.catalog-item > h4 {
+    font-style: normal;
+    font-size: 15px;
+    line-height: 17px;
+    min-height:50px;
+}
+
+.catalog-item > .price {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--primary);
+    display: inline-block;
+    margin: 5px 0px;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.catalog-item, .sight-item-card {
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    flex: 0 0 calc(25% - 50px);
+    background-color: var(--white);
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    
+}
+
+:root {
+    --black: #000000;
+    --dark: #3a444f;
+    --light: #EDEDF1;
+    --white: #ffffff;
+    --primary: #0B5394;
+    --secondary: #FC7703;
+}
+
+.catalog-item > .detail {
+    display: inline-block;
+    margin: 10px 0px;
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.catalog-item > .detail > a {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white);
+    background-color: var(--secondary);
+    border-radius: 90px;
+    padding: 10px 50px;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content:center;
+}
+
+/* конец блоки*/
+
+/* начало otzuv.html*/
+h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 71px;
+    color: var(--primary);
+    padding-left: 70px;
+}
+
+.container > .row {
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.review-item {
+    width: calc(33.3% - 20px) !important;
+    margin-right: 20px !important;
+}
+
+.review-item {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 18px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.review-head {
+    background: rgba(210, 82, 140, 0.2) url(img/icon-review-1.png) 10px center no-repeat;
+    color: var(--primary);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 0px 16px 49px;
+    margin: 0px -12px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.review-item p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 166%;
+    height: 190px;
+    min-height: 190px;
+    overflow: hidden;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.preview-footer {
+    margin: 35px 0px 5px;
+}
+
+.review-add {
+    display: inline-block;
+    background-color: var(--primary);
+    border-radius: 90px;
+    padding: 15px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--white);
+    width: 260px;
+    margin: 20px auto 40px;
+    text-align: center;
+}
+
+
+/* конец otzuv.html*/
+
+/* начало photo.html*/
+
+.images { 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0 50px; 
+    padding: 30px; 
+    max-width: 1250px;
+    min-width: 380px;
+} 
+
+.photo { 
+    max-width: 31.333%; 
+    padding: 0 10px; 
+    margin: 10px;
+    height: 240px; 
+} 
+
+.photo img { 
+    width: 100%; 
+    height: 100%; 
+}
+
+
+/* конец  photo.html*/
+
+
